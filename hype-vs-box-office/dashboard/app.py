@@ -127,7 +127,7 @@ with col_a:
     )
     fig_scatter.add_annotation(
         x=85, y=88, text="Perfect calibration", showarrow=False,
-        font=dict(size=10, color="rgba(128,128,128,0.6)"), angle=40
+        font=dict(size=10, color="rgba(128,128,128,0.6)"), textangle=-40
     )
     fig_scatter.update_layout(height=400, legend_title="Verdict")
     st.plotly_chart(fig_scatter, use_container_width=True)
