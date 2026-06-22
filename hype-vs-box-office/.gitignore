@@ -1,0 +1,27 @@
+# Environment
+.env
+__pycache__/
+*.pyc
+*.pyo
+.Python
+.venv/
+venv/
+env/
+
+# Data (raw API pulls — too large for git, use sample_data.csv)
+data/raw/
+data/processed/
+
+# Models
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
